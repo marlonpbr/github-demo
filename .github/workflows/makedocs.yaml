@@ -16,7 +16,7 @@ jobs:
       - uses: docker://pandoc/extra:3
         with:
           args: --output=output/result.pdf ${{ steps.files_list.outputs.files }}
-      - uses: actions/upload-artifact@4
+      - uses: actions/upload-artifact@v7
         with:
           name: output
           path: output
