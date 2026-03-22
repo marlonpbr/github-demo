@@ -23,6 +23,24 @@ Now you get bullets!!
     - Sub Sub bullet 4.2.1
     - Sub Sub bullet 4.2.2
 
+## Annotations
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+
 ## Mermaid Diagrams
 ```mermaid
 graph TD;
@@ -76,6 +94,32 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 ```math
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+
+
+## Images
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+
+## Java Code
+
+```java
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import sailpoint.object.Application;
+import sailpoint.object.Field;
+import sailpoint.object.Identity;
+import sailpoint.server.IdnRuleUtil;
+
+public class UsernameGenerator {
+    Logger log = LogManager.getLogger(UsernameGenerator.class);
+    Identity identity = new Identity();
+    Application application = new Application();
+    IdnRuleUtil idn;
+    Field field = new Field();
+}
+
 ```
 
 
