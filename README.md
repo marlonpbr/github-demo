@@ -23,7 +23,7 @@ Now you get bullets!!
     - Sub Sub bullet 4.2.1
     - Sub Sub bullet 4.2.2
 
-
+## Mermaid Diagrams
 ```mermaid
 graph TD;
     A-->B;
@@ -32,10 +32,14 @@ graph TD;
     C-->D;
 ```
 
+## Mermaid Info
 
 ```mermaid
   info
 ```
+
+
+## geoJSON
 
 ```geojson
 {
@@ -63,3 +67,11 @@ graph TD;
   ]
 }
 ```
+## Mathematical Notation
+**The Cauchy-Schwarz Inequality**\
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+
+
+
+
